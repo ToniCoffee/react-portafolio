@@ -1,0 +1,28 @@
+.menu_links {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 30px;
+  background: rgba(0, 0, 0, 0.97);
+  z-index: 10;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.menu_link {
+  /* padding-left: 0px; */
+  margin-top: 30px;
+}
+
+.visible {
+  display: flex;
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 0.5s;
+}

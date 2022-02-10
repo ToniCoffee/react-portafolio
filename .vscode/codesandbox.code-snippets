@@ -1,0 +1,29 @@
+{
+	"create box-sizing": {
+		"scope": "css",
+		"prefix": "bxs",
+		"body": ["* {\n\tbox-sizing: border-box;\n\tmargin: 0;\n\tpadding: 0;\n\tlist-style: none;\n\ttext-decoration: none;\n\tcolor: unset;\n}"],
+		"description": "box-sizing snippet"
+	},
+
+	"create border": {
+		"scope": "css",
+		"prefix": "bdr",
+		"body": ["border: 1px solid ${1:red};\n"],
+		"description": "border snippet"
+	},
+
+	"create background-color": {
+		"scope": "css",
+		"prefix": "bck",
+		"body": ["background-color: ${1:#333333};\n"],
+		"description": "background-color snippet"
+	},
+
+	"create padding": {
+		"scope": "css",
+		"prefix": "pd",
+		"body": ["padding: ${1:1rem};\n"],
+		"description": "padding snippet"
+	}
+}

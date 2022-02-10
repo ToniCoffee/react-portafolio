@@ -1,0 +1,18 @@
+.logo {
+  display: inherit;
+  align-items: center;
+}
+
+.logo .title::before {
+  content: '< ';
+  color: var(--blue);
+}
+
+.logo .title {
+  font-size: 24px;
+}
+
+.logo .title::after {
+  content: ' />';
+  color: var(--blue);
+}
