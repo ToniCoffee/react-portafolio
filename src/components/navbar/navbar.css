@@ -9,14 +9,14 @@
   z-index: 5;
 }
 
-.navbar .container {
-  /* border: 1px solid orange; */
+/* .navbar .container {
+  border: 1px solid orange;
   display: inherit;
   justify-content: inherit;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-}
+} */
 
 /* .navbar .container * {
   border: 1px solid green;
