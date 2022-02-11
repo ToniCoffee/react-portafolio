@@ -1,0 +1,11 @@
+.link {
+  max-width: 160px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: bold;
+  padding: 15px 15px;
+  border-radius: 5px;
+}

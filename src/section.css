@@ -1,25 +1,13 @@
 .section {
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: left;
   color: var(--grey);
 }
 
-.section div, h2 {
+/* .section div, h2 {
   margin-bottom: 30px;
-}
+} */
 
-.section p {
+/* .section p {
   line-height: 27px;
-}
-
-.section a {
-  max-width: 160px;
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
-  background-color: var(--blue);
-  color: var(--white);
-  font-weight: bold;
-  padding: 15px 15px;
-  border-radius: 5px;
-}
+} */
