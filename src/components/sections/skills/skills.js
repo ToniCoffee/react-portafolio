@@ -19,7 +19,6 @@ export const Skills = () => {
           <CardTecnology src="github.svg" alt="github icon" text="GitHub"/>
           <CardTecnology src="git.svg" alt="git icon" text="GIT"/>
         </div>
-        <div className="skills"></div>
       </div>
     </section>
   );

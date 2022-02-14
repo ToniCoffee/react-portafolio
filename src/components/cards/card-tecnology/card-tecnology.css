@@ -1,0 +1,25 @@
+.card_tecnology_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card_tecnology_item * {
+  width: 100%;
+}
+
+.card_tecnology_name {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.card_tecnology_item img {
+  max-width: 50%;
+  margin-bottom: 5px;
+}
+
+.card_tecnology_item h3 {
+  margin-top: 10px;
+}

@@ -1,7 +1,7 @@
 import { Link } from '/src/components/link/link';
 import { Section, Description } from '/src/components/section/section';
 
-import '/src/section.css';
+// import '/src/section.css';
 
 const paragraphs = [
   'I am a Full Stack developer with experience building websites and web applications. I specialize in JavaScript, and have professional experience working with React.',
@@ -18,7 +18,6 @@ export const About = () => {
           </Section>
           <Link icon="file-download" text="Download CV" />
         </div>
-        <div className="skills"></div>
       </div>
     </section>
   );

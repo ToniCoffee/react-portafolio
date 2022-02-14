@@ -4,7 +4,6 @@ import { Menu } from '/src/components/menu/menu';
 import { useState, useEffect } from 'react';
 
 import './navbar.css';
-import '/src/common.css';
 
 export const Navbar = () => {
   const [newClass, setNewClass] = useState('');

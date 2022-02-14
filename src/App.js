@@ -2,8 +2,11 @@ import { Navbar } from '/src/components/navbar/navbar';
 import { Home } from '/src/components/home/home';
 import { About } from '/src/components/sections/about/about';
 import { Skills } from '/src/components/sections/skills/skills';
+import { Services } from '/src/components/sections/services/services';
 
-import './styles.css';
+import '/src/styles.css';
+import '/src/common.css';
+import '/src/section.css';
 
 export default function App() {
   return (
@@ -12,6 +15,7 @@ export default function App() {
       <Home />
       <About />
       <Skills />
+      <Services />
     </>
   );
 }

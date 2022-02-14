@@ -1,0 +1,14 @@
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mobile{color:black}
+.ruler {color: var(--orange);}
+.code {color: var(--green);}
+.thumbs-up {color: var(--red);}
+.tachometer {color: var(--amarillo);}
+.crosshair {color: var(--blue);}

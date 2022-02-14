@@ -1,11 +1,31 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library     } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee, faBars, faFileDownload } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faCoffee, 
+  faBars, 
+  faFileDownload, 
+  faMobileAlt,
+  faPencilRuler,
+  faCode,
+  faThumbsUp,
+  faTachometerAlt,
+  faCrosshairs
+} from '@fortawesome/free-solid-svg-icons';
 
-library.add(faCoffee, faBars, faFileDownload);
+library.add(
+  faCoffee, 
+  faBars, 
+  faFileDownload, 
+  faMobileAlt,
+  faPencilRuler,
+  faCode,
+  faThumbsUp,
+  faTachometerAlt,
+  faCrosshairs
+);
 
-export const Icon = ({icon, className}) => {
+export const Icon = ({icon, iconSize = 'xs', className=''}) => {
   return (
-    <FontAwesomeIcon icon={icon} className={className} />
+    <FontAwesomeIcon icon={icon} className={className} size={iconSize} aria-hidden="true" />
   );
 };

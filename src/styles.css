@@ -29,36 +29,3 @@ body {
 #root {
   height: 100%;
 }
-
-.wrapper {
-  /* border: 1px solid orange; */
-  height: 100%;
-  width: 80%;
-}
-
-.test::before {
-  content: "\f0c9";
-}
-
-.test {
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
-
-/* .App {
-  background-image: url("bg_responsive.webp");
-  background-attachment: fixed;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-} */
